@@ -1,5 +1,5 @@
 import React from "react"
-
+import Layout from "../components/layout";
 
 
 // data
@@ -8,8 +8,10 @@ import React from "react"
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
-      <h1>Home Page!!</h1>
+      <Layout>
+        <title>Home Page</title>
+        <h1>Home Page!!</h1>
+      </Layout>
     </main>
   )
 }
